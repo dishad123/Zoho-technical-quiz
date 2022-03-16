@@ -1,0 +1,17 @@
+
+
+#include <stdio.h>
+void val();
+void main()
+{
+   int i=15,j=3;
+   val(--i,j++);
+}
+void val(int i,int j)
+{
+    printf("%d %d",i,j);
+}
+
+OUTPUT 
+
+14 3
