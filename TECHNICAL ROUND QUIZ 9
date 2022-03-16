@@ -1,0 +1,23 @@
+
+
+#include <stdio.h>
+
+
+int main()
+{
+   char arr[]={"welcomezoho"},temp;
+   int i;
+   for(int i=1;i<6;i=i+3)
+   {
+       temp=arr[i];//e,o
+       arr[i]=arr[i+1];//l,m
+       arr[i+1]=arr[i+2];//c,e
+       arr[i+2]=temp;//o,z
+   }
+   printf("%s",arr);
+    
+}
+
+OUTPUT:
+OUTPUT:
+wlcemeozoho
