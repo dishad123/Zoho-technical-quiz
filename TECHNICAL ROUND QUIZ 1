@@ -1,0 +1,17 @@
+#include <stdio.h>
+int i=40;
+extern int i;
+void main()
+{
+    int num=(5,4,3,2,1,0);
+    do{
+        printf("%d and %d",i++,num);
+    }
+    while(5,4,3,2,1,0);
+    
+}
+
+
+OUTPUT:
+
+40 and 0
