@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+
+void main()
+{
+    char str[]="I love programming";
+    char *sp=str;
+    printf("%s\n",++sp +6);
+    
+}
+
+OUTPUT:
+programming //preincrement so it avoids space
+
+#include <stdio.h>
+
+
+void main()
+{
+    char str[]="I love programming";
+    char *sp=str;
+    printf("%s\n",++sp +6);
+    
+}
+
+OUTPUT:
+ programming//post increment 
