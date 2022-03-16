@@ -1,0 +1,23 @@
+
+
+#include <stdio.h>
+
+
+int main()
+{
+   int arr[10]={1,2,3,4};
+   int i=0,x,temp=0;
+   do{
+       if(arr[i]+arr[i+1]>temp)
+       {
+           temp=arr[i]+arr[i+1];
+           x=i;
+       }
+       i=i+1;
+   }while(i<3);
+   printf("%d",x);
+    
+}
+
+OUTPUT:
+2
